@@ -1,0 +1,38 @@
+:root{
+    --text-color:#4A1884;
+    --footer-color-heading:#000;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.55555%;
+    text-transform: capitalize;
+}
+.c20{
+    max-width: 20%;
+}
+.btn{
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    font-size: 1.4rem;
+}
+.heading-container{
+    background-color: #034ea1;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    position: relative;
+    left: 50%;
+    transform:translateX(-50%);
+    border-radius: 3px;
+}
