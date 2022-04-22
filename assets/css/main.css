@@ -629,15 +629,20 @@ html{
 .footer__bottom{
     padding: 20px 0;
     height: 120px;
+    background-color: #212121;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 .rules__list--item{
     list-style: none;
     margin-right:24px ;
     display: inline-block;
+   
 }
 .rules__list--item a{
     text-decoration: none;
-    color: #000;
+    color: #FFF;
     font-size: 1.4rem;
 }
 .rules__link{
@@ -645,6 +650,7 @@ html{
     text-decoration: none;
     margin: 10px 0  ;
     display: inline-block;
+    color: #FFF;
 }
 .footer__certification{
     display: flex;
@@ -657,7 +663,7 @@ html{
 .footer__certification-content{
     text-align: center;
     font-size: 1.2rem;
-    color: #000;
+    color: #FFF;
     line-height: 1.4;
     text-transform: capitalize;
 }
